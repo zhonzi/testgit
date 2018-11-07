@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Helvetica;
+    padding: 20px;
+    background: #ccffcc;
+}
+
+/* Header/Blog Title */
+.header {
+    padding: 30px;
+    text-align: center;
+    background: white;
+}
+
+.header h1 {
+    font-size: 50px;
+}
+
+/* Style the top navigation bar */
+.topnav {
+    overflow: hidden;
+    background-color: #333;
+}
+
+/* Style the topnav links */
+.topnav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 14px;
+    text-decoration: none;
+}
+
+/* Change color on hover */
+.topnav a:hover {
+    background-color: #ccffcc;
+    color: black;
+}
+
+/* Create two unequal columns that floats next to each other */
+/* Left column */
+.leftcolumn {   
+    float: left;
+    width: 75%;
+}
+
+/* Right column */
+.rightcolumn {
+    float: left;
+    width: 100%;
+    background-color: #ff8080;
+    padding-left: 10px;
+}
+
+/* Fake image */
+.fakeimg {
+    background-color: #aeeaea;
+    width: 100%;
+    padding: 20px;
+}
+
+/* Add a card effect for articles */
+.card {
+    background-color:
+    ;
+    padding: 14px;
+    margin-top: 14px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Footer */
+.footer {
+    padding: 25px;
+    text-align: center;
+    background: #ddd;
+    margin-top: 25px;
+}
+
+/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 800px) {
+    .leftcolumn, .rightcolumn {   
+        width: 100%;
+        padding: 0;
+    }
+}
+
+/* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+@media screen and (max-width: 400px) {
+    .topnav a {
+        float: none;
+        width: 100%;
+    }
+}
+</style>
+</head>
+<body>
+
+<div class="header">
+  <h1>My Website</h1>
+</div>
+
+<div class="topnav">
+  <a href="https://www.facebook.com/profile.php?id=100000879596663">https://www.facebook.com/profile.php?id=100000879596663</a>
+  <a href="https://www.instagram.com/zhonzi/?hl=zh-tw">https://www.instagram.com/zhonzi/?hl=zh-tw</a>
+</div>
+<div class="rightcolumn">
+    <div class="card">
+      <h2>Hi!I'm Chung Qi Wu</h2>
+      <div> <img src="https://scontent-tpe1-1.cdninstagram.com/vp/0dff66d3d1794dd6a59a2ee81c42e694/5C6C3420/t51.2885-15/e35/31300077_1968118919873180_8989161693472882688_n.jpg" height="800"weight="800";></div>
+      <p>I am a student from NCCU.I major in Department of MIS.I'm a fresh man,and I like the campus very much!</p>
+<div class="row">
+  <div class="leftcolumn">
+    <div class="card">
+      <h2>latest update</h2>
+      <h5>Oct 28,2018</h5>
+    </div>
+  
+    </div>
+    <div class="card">
+      
+      <div class="fakeimg"><p><img src="https://scontent-tpe1-1.cdninstagram.com/vp/3648bbc6f40edaa481fbc5f77b60a9ea/5C716372/t51.2885-15/e35/31709194_210176069585596_3474686936839356416_n.jpg" width="50%"height="50%" ></p> <p>I win the champion at the singing contest of my high school.</p>
+      </div>
+      <div class="fakeimg"><p><img src="https://scontent-tpe1-1.cdninstagram.com/vp/e7d2191212161ab675187d75ddbc476c/5C507F3D/t51.2885-15/e35/31236779_265339377343897_5557500764047278080_n.jpg" width="50%"height="50%" ></p><p>I went to a metal band's live performance.</p></div>
+      <div class="fakeimg"><p><img src="https://scontent-tpe1-1.cdninstagram.com/vp/a73530b247fe4ebe743c05c2a0d3d69b/5C81CB37/t51.2885-15/e35/31669852_193067391315549_136263773110403072_n.jpg" width="50%"height="50%" ></p><p>My ugly photos which shooted when i was singing on the stage</p></div>
+    </div>
+    <div class="card">
+      <h3>Follow Me On Instagram</h3>
+      <p><a href="https://www.instagram.com/zhonzi/?hl=zh-tw">Zhonzi</a></p>
+    </div>
+  </div>
+</div>
+
+<div class="footer">
+  <h2>Thx for visit my blog :)</h2>
+</div>
+
+</body>
+</html>
